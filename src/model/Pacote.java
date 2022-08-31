@@ -10,7 +10,7 @@ public class Pacote {
     final double PARAM_PRECO_MIN = 2.0d, PARAM_LIMITE_UNITARIO_A_B = 20.d;
 
     //codigos de erros de dados de entrada
-    final double COD_ERRO_PESO = -1, COD_ERRO_DESTINO = -2, COD_ERRO_TIPO_TRANSPORTE = -3, COD_ERRO_TIPO_ENTREGA = 4;
+    final double COD_ERRO_PESO = -1, COD_ERRO_DESTINO = -2, COD_ERRO_TIPO_TRANSPORTE = -3, COD_ERRO_TIPO_ENTREGA = -4;
 
     char  destino, tipoTransporte, tipoEntrega;
     double peso;
